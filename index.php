@@ -33,9 +33,9 @@
                <label for="exampleInputEmail1" class="form-label">fecha de nacimiento</label>
                <input type="date" class="form-control" name="fecha" >
            </div>
-<!--            <div class="mb-3">
+           <div class="mb-3">
                <label for="exampleInputEmail1" class="form-label">Direccion</label>
-               <input type="text" class="form-control" name="fecha" > -->
+               <input type="text" class="form-control" name="fecha" > 
            </div>
            <div class="mb-3">
                <label for="exampleInputEmail1" class="form-label">correo</label>
@@ -51,7 +51,7 @@
                        <th scope="col">NOMBRES</th>
                        <th scope="col">APELLIDOS</th>
                        <th scope="col">FECHA DE NACIMIENTO</th>
-<!--                       <th scope="col">DIRECCION</th> -->
+                       <th scope="col">DIRECCION</th>
                        <th scope="col">CORREO</th>
                     </tr>
                 </thead>

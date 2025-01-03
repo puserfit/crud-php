@@ -40,10 +40,10 @@ if( !empty($_GET["id"])){
             <label for="exampleInputEmail1" class="form-label">fecha de nacimiento</label>
             <input type="date" class="form-control" name="fecha"  value="<?=$paciente->Fecha_Nacimiento?>">
         </div>
-<!--         <div class="mb-3">
+        <div class="mb-3">
             <label for="exampleInputEmail1" class="form-label">Direccion</label>
             <input type="date" class="form-control" name="fecha"  value="<?=$paciente->Direccion?>">
-        </div> -->
+        </div> 
         <div class="mb-3">
             <label for="exampleInputEmail1" class="form-label">correo</label>
             <input type="email" class="form-control" name="correo" value="<?=$paciente->Correo_Electronico?>">
